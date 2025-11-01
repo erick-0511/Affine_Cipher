@@ -1,22 +1,22 @@
 # AFFINE CIPHER
 
 ## Description
-Python program that implements affine cipher, a substitution cipher.
-To encrypt, a formula is used: 
-E(x) = (ax + b) mod n
+Python program that implements affine cipher, a substitution cipher.<br>
+To encrypt, a formula is used: <br>
+<center>E(x) = (ax + b) mod n</center> <br>
 where:
 - "a" is in Z<sub>n</sub>
 - "x" is the character to encrypt
 - "b" is in Z<sub>n</sub>*
 
 To decrypt, a formula is used:
-D(x) = (x-b)a<sup>-1</sup> mod n
+<center>D(x) = (x-b)a<sup>-1</sup> mod n</center>
 Where:
 - "a<sup>-1</sup>" is the inverse of "a" 
 - "x" is the character to decrypt
 - "b" is in Z<sub>n</sub>*
 
-In both caes, "n" is the size of the alphabet.
+In both caes, "n" is the size of the alphabet.<br>
 "a" and "b" are elements of the key K = (a, b)
 
 ## Characteristics
