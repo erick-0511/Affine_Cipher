@@ -6,7 +6,7 @@ To encrypt, a formula is used:
 
 <div align="center">E(x) = (ax + b) mod n</div>
 
-where:
+Where:
 - "a" is in Z<sub>n</sub>
 - "x" is the character to encrypt
 - "b" is in Z<sub>n</sub>*
@@ -21,6 +21,7 @@ Where:
 - "b" is in Z<sub>n</sub>*
 
 In both caes, "n" is the size of the alphabet.
+
 "a" and "b" are elements of the key K = (a, b)
 
 ## Characteristics
